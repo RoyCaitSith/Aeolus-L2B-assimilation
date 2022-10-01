@@ -1,0 +1,4 @@
+&iosetup
+ infilename='/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN/15_ENS/cycling_da/Data/CON6h_082406_Hybrid_C08/da/diag_conv_anl.2021082606.d02',
+ outfilename='/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN/15_ENS/cycling_da/Data/CON6h_082406_Hybrid_C08/da/results_conv_anl.2021082606.d02',
+/

@@ -1,0 +1,102 @@
+.------------------------------------------------------------------------------.
+| ------------   USER DEFINITIONS FOR TABLE-A TABLE-B TABLE D   -------------- |
+|------------------------------------------------------------------------------|
+| MNEMONIC | NUMBER | DESCRIPTION                                              |
+|----------|--------|----------------------------------------------------------|
+|          |        |                                                          |
+| ALADIN2B | A40013 | Atmospheric Laser Doppler Instrument (ALADIN) L2B Data   |
+|          |        |                                                          |
+| YYMMDD   | 301011 | Year, month, day                                         |
+| HHMMSS   | 301200 | Hour, minute, second                                     |
+| L2BGEO   | 340200 | Geolocations of L2B                                      |
+| L2BINFO  | 340201 | L2B information                                          |
+| L2BPTB   | 340202 | Information of pressure, temperature, backscatter ratio  |
+|          |        |                                                          |
+| SAID     | 001007 | Satellite identifier                                     |
+| SIID     | 002019 | Satellite instruments                                    |
+| OGCE     | 001033 | Identification of originating/generating centre          |
+| GSES     | 001034 | Identification of originating/generating sub-centre      |
+| YEAR     | 004001 | Year                                                     |
+| MNTH     | 004002 | Month                                                    |
+| DAYS     | 004003 | Day                                                      |
+| HOUR     | 004004 | Hour                                                     |
+| MINU     | 004005 | Minute                                                   |
+| SECW     | 004007 | Seconds within a minute (microsecond accuracy)           |
+| PFNUM    | 005068 | Profile number                                           |
+| OBSID    | 005070 | Observation identifier                                   |
+| RCVCH    | 005069 | Receiver channel                                         |
+| LL2BCT   | 040036 | Lidar L2b classification type                            |
+| CRDSIG   | 008091 | Coordinates significance                                 |
+| CLATH    | 005001 | Latitude (high accuracy)                                 |
+| CLONH    | 006001 | Longitude (high accuracy)                                |
+| TISE     | 004016 | Time increment                                           |
+| HEITH    | 007071 | Height (high resolution)                                 |
+| BEARAZ   | 005021 | Bearing or azimuth                                       |
+| ELEV     | 007021 | Elevation                                                |
+| SATRG    | 040035 | Satellite range                                          |
+| HOIL     | 040029 | Horizontal observation integration length                |
+| HLSW     | 040030 | Horizontal line of sight wind                            |
+| HLSWEE   | 040031 | Error estimate of horizontal line of sight wind          |
+| CONFLG   | 025187 | Confidence flag                                          |
+| PRES     | 010004 | Pressure                                                 |
+| TMDBST   | 012001 | Temperature/air temperature                              |
+| BKSTR    | 040037 | Backscatter ratio                                        |
+| DWPRS    | 040032 | Derivative wind to pressure                              |
+| DWTMP    | 040033 | Derivative wind to temperature                           |
+| DWBR     | 040034 | Derivative wind to backscatter ratio                     |
+|          |        |                                                          |
+|------------------------------------------------------------------------------|
+| MNEMONIC | SEQUENCE                                                          |
+|----------|-------------------------------------------------------------------|
+|          |                                                                   |
+| ALADIN2B | SAID SIID OGCE GSES YYMMDD HHMMSS "L2BGEO"6                       |
+| ALADIN2B | L2BINFO L2BPTB                                                    |
+|          |                                                                   |
+| YYMMDD   | YEAR MNTH DAYS                                                    |
+|          |                                                                   |
+| HHMMSS   | HOUR MINU SECW                                                    |
+|          |                                                                   |
+| L2BGEO   | CRDSIG CLATH CLONH TISE HEITH BEARAZ ELEV SATRG                   |
+|          |                                                                   |
+| L2BINFO  | PFNUM OBSID RCVCH LL2BCT HOIL HLSW HLSWEE CONFLG                  |
+|          |                                                                   |
+| L2BPTB   | PRES TMDBST BKSTR DWPRS DWTMP DWBR                                |
+|          |                                                                   |
+|------------------------------------------------------------------------------|
+| MNEMONIC | SCAL | REFERENCE   | BIT | UNITS                    |-------------|
+|----------|------|-------------|-----|--------------------------|-------------|
+|          |      |             |     |                          |-------------|
+| SAID     |    0 |           0 |  10 | Code table 001007        |-------------|
+| SIID     |    0 |           0 |  11 | Code table 002019        |-------------|
+| OGCE     |    0 |           0 |   8 | Code table 001033        |-------------|
+| GSES     |    0 |           0 |   8 | Code table 001034        |-------------|
+| YEAR     |    0 |           0 |  12 | Year                     |-------------|
+| MNTH     |    0 |           0 |   4 | Month                    |-------------|
+| DAYS     |    0 |           0 |   6 | Day                      |-------------|
+| HOUR     |    0 |           0 |   5 | Hour                     |-------------|
+| MINU     |    0 |           0 |   6 | Minute                   |-------------|
+| SECW     |    6 |           0 |  26 | s                        |-------------|
+| PFNUM    |    0 |           0 |  16 | Numeric                  |-------------|
+| OBSID    |    0 |           0 |  30 | Numeric                  |-------------|
+| RCVCH    |    0 |           0 |   2 | Code table 005069        |-------------|
+| LL2BCT   |    0 |           0 |   4 | Code table 040036        |-------------|
+| CRDSIG   |    0 |           0 |   8 | Code table 008091        |-------------|
+| CLATH    |    5 |    -9000000 |  25 | Degree                   |-------------|
+| CLONH    |    5 |   -18000000 |  26 | Degree                   |-------------|
+| TISE     |    0 |       -4096 |  13 | s                        |-------------|
+| HEITH    |    3 |   -10000000 |  26 | m                        |-------------|
+| BEARAZ   |    2 |           0 |  16 | Degree true              |-------------|
+| ELEV     |    2 |       -9000 |  15 | Degree                   |-------------|
+| SATRG    |    0 |      380000 |  18 | m                        |-------------|
+| HOIL     |    0 |           0 |  26 | m                        |-------------|
+| HLSW     |    2 |      -32767 |  16 | m/s                      |-------------|
+| HLSWEE   |    2 |           0 |  15 | m/s                      |-------------|
+| CONFLG   |    0 |           0 |   4 | Code table 025187        |-------------|
+| PRES     |   -1 |           0 |  14 | Pa                       |-------------|
+| TMDBST   |    1 |           0 |  12 | K                        |-------------|
+| BKSTR    |    3 |         500 |  20 | Numeric                  |-------------|
+| DWPRS    |    3 |     -100000 |  18 | m/s/Pa                   |-------------|
+| DWTMP    |    3 |     -100000 |  18 | m/s/K                    |-------------|
+| DWBR     |    3 |     -200000 |  19 | m/s                      |-------------|
+|          |      |             |     |                          |-------------|
+'------------------------------------------------------------------------------'
