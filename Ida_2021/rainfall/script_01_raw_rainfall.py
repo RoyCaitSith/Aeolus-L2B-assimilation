@@ -20,12 +20,16 @@ accumulation_hour = 6
 #cases = ['IMERG', 'CON6h_082500_Hybrid_C08']
 #cases = ['IMERG', 'CON6h_Aeolus6h_082406_Hybrid_C08']
 #cases = ['IMERG', 'CON6h_Aeolus6h_082412_Hybrid_C08']
-cases = ['IMERG', 'CON6h_Aeolus6h_082418_Hybrid_C05']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082418_Hybrid_C0y']
 #cases = ['IMERG', 'CON6h_Aeolus6h_082500_Hybrid_C08']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082500_H1_Hybrid_C08']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082500_H2_Hybrid_C08']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082500_V1_Hybrid_C08']
+cases = ['IMERG', 'CON6h_Aeolus6h_082500_V2_Hybrid_C08']
 
-anl_end_time = datetime.datetime(2021, 8, 26,  0, 0, 0)
-forecast_start_time = datetime.datetime(2021, 8, 26,  6, 0, 0)
-forecast_end_time = datetime.datetime(2021, 8, 28,  6, 0, 0)
+anl_end_time = datetime.datetime(2021, 8, 27,  0, 0, 0)
+forecast_start_time = datetime.datetime(2021, 8, 27,  6, 0, 0)
+forecast_end_time = datetime.datetime(2021, 8, 29,  6, 0, 0)
 n_time = int((forecast_end_time - forecast_start_time).total_seconds()/3600/6+1)
 
 print(len(cases))

@@ -11,7 +11,11 @@ import numpy as np
 #case = 'CON6h_Aeolus6h_082406_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082412_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082418_Hybrid_C08'
-case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H1_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H2_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_V1_Hybrid_C08'
+case = 'CON6h_Aeolus6h_082500_V2_Hybrid_C08'
 
 files_exp  = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN/15_ENS/track_intensity/' + case
 #files_hwrf = files_exp + '/multi/hwrf.18x18.AL092021.2021082406.f'

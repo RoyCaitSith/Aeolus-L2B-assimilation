@@ -14,7 +14,11 @@ dir_best_track = dir_main + '/best_track'
 #cases = ['CON6h_Aeolus6h_082406_Hybrid_C05', 'CON6h_Aeolus6h_082406_Hybrid_C06', 'CON6h_Aeolus6h_082406_Hybrid_C07', 'CON6h_Aeolus6h_082406_Hybrid_C08']
 #cases = ['CON6h_Aeolus6h_082412_Hybrid_C05', 'CON6h_Aeolus6h_082412_Hybrid_C06', 'CON6h_Aeolus6h_082412_Hybrid_C07', 'CON6h_Aeolus6h_082412_Hybrid_C08']
 #cases = ['CON6h_Aeolus6h_082418_Hybrid_C05', 'CON6h_Aeolus6h_082418_Hybrid_C06', 'CON6h_Aeolus6h_082418_Hybrid_C07', 'CON6h_Aeolus6h_082418_Hybrid_C08']
-cases = ['CON6h_Aeolus6h_082500_Hybrid_C05', 'CON6h_Aeolus6h_082500_Hybrid_C06', 'CON6h_Aeolus6h_082500_Hybrid_C07', 'CON6h_Aeolus6h_082500_Hybrid_C08']
+#cases = ['CON6h_Aeolus6h_082500_Hybrid_C05', 'CON6h_Aeolus6h_082500_Hybrid_C06', 'CON6h_Aeolus6h_082500_Hybrid_C07', 'CON6h_Aeolus6h_082500_Hybrid_C08']
+#cases = ['CON6h_Aeolus6h_082500_H1_Hybrid_C05', 'CON6h_Aeolus6h_082500_H1_Hybrid_C06', 'CON6h_Aeolus6h_082500_H1_Hybrid_C07', 'CON6h_Aeolus6h_082500_H1_Hybrid_C08']
+#cases = ['CON6h_Aeolus6h_082500_H2_Hybrid_C05', 'CON6h_Aeolus6h_082500_H2_Hybrid_C06', 'CON6h_Aeolus6h_082500_H2_Hybrid_C07', 'CON6h_Aeolus6h_082500_H2_Hybrid_C08']
+#cases = ['CON6h_Aeolus6h_082500_V1_Hybrid_C05', 'CON6h_Aeolus6h_082500_V1_Hybrid_C06', 'CON6h_Aeolus6h_082500_V1_Hybrid_C07', 'CON6h_Aeolus6h_082500_V1_Hybrid_C08']
+cases = ['CON6h_Aeolus6h_082500_V2_Hybrid_C05', 'CON6h_Aeolus6h_082500_V2_Hybrid_C06', 'CON6h_Aeolus6h_082500_V2_Hybrid_C07', 'CON6h_Aeolus6h_082500_V2_Hybrid_C08']
 
 domain = 'd01'
 file_best_track = dir_best_track + '/2021_09L_Ida.csv'
@@ -34,6 +38,7 @@ for case in cases:
     df = pd.read_csv(filename, header=None, usecols=[2, 5, 6, 7, 8, 9])
     df.columns = ['Initial_Time', 'Forecast_Hour', 'Latitude', 'Longitude', 'MWS (Knot)', 'MSLP (hPa)']
     df.drop_duplicates(subset=['Forecast_Hour'], keep='last', inplace=True)
+    print(df)
 
     Date_Time = []
     for it, fh in zip(df['Initial_Time'], df['Forecast_Hour']):

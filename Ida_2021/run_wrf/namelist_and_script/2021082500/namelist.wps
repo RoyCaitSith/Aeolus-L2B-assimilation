@@ -2,12 +2,12 @@
 wrf_core = 'ARW',
 max_dom = 2 
 start_date = '2021-08-25_00:00:00','2021-08-25_00:00:00', 
-end_date = '2021-08-29_00:00:00','2021-08-29_00:00:00', 
+end_date = '2021-08-28_12:00:00','2021-08-28_12:00:00', 
 io_form_geogrid = 2,
 interval_seconds = 21600 
 debug_level = 0
 
-opt_output_from_geogrid_path = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_Hybrid_C07/Geogrid_Data/' 
+opt_output_from_geogrid_path = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_V2_Hybrid_C05/Geogrid_Data/' 
 /
 
 &geogrid 
@@ -42,5 +42,5 @@ fg_name = 'FILE'
 io_form_metgrid = 2,
 
 opt_metgrid_tbl_path = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/WPS/metgrid/'
-opt_output_from_metgrid_path = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_Hybrid_C07/Metgrid_Data/' 
+opt_output_from_metgrid_path = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_V2_Hybrid_C05/Metgrid_Data/' 
 /

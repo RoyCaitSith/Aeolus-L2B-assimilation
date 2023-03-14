@@ -1,6 +1,6 @@
 &time_control
-run_days = 4,  
-run_hours = 0,  
+run_days = 3,  
+run_hours = 12,  
 run_minutes                         = 0,
 run_seconds                         = 0,
 start_year = 2021, 2021,  
@@ -11,8 +11,8 @@ start_minute                        = 00,   00,
 start_second                        = 00,   00,
 end_year = 2021, 2021,  
 end_month = 08, 08,  
-end_day = 29, 29,  
-end_hour = 00, 00,  
+end_day = 28, 28,  
+end_hour = 12, 12,  
 end_minute                          = 00,   00,
 end_second                          = 00,   00,
 interval_seconds = 21600 
@@ -27,8 +27,8 @@ io_form_input                       = 2
 io_form_boundary                    = 2
 debug_level                         = 0
 
-history_outname = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_Hybrid_C07/2021082500/wrfout_d<domain>_<date>' 
-rst_outname = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_Hybrid_C07/2021082500/wrfrst_d<domain>_<date>' 
+history_outname = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_V2_Hybrid_C05/2021082500/wrfout_d<domain>_<date>' 
+rst_outname = '/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082500_V2_Hybrid_C05/2021082500/wrfrst_d<domain>_<date>' 
 /
 
 &domains

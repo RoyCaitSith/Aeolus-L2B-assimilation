@@ -15,7 +15,11 @@ from netCDF4 import Dataset
 #case = 'CON6h_Aeolus6h_082406_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082412_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082418_Hybrid_C08'
-case = 'CON6h_Aeolus6h_082500_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H1_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H2_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_V1_Hybrid_C08'
+case = 'CON6h_Aeolus6h_082500_V2_Hybrid_C08'
 
 dir_exp = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN/15_ENS'
 dir_in  = dir_exp + '/cycling_da/Data/' + case + '/bkg'
@@ -33,7 +37,7 @@ domain = 'd01'
 #forecast_time_str = datetime.datetime(2021, 8, 24, 18, 0, 0)
 #forecast_time_end = datetime.datetime(2021, 8, 29,  0, 0, 0)
 forecast_time_str = datetime.datetime(2021, 8, 25,  0, 0, 0)
-forecast_time_end = datetime.datetime(2021, 8, 28, 12, 0, 0)
+forecast_time_end = datetime.datetime(2021, 8, 29,  6, 0, 0)
 
 os.system('mkdir ' + dir_out)
 dir_out = dir_out + '/wrfprd'

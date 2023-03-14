@@ -28,13 +28,21 @@ cycling_interval = 6
 #labels = ['IMERG', 'CON_Aeolus_082406_Hybrid_C08']
 #cases = ['IMERG', 'CON6h_Aeolus6h_082412_Hybrid_C08']
 #labels = ['IMERG', 'CON_Aeolus_082412_Hybrid_C08']
-cases = ['IMERG', 'CON6h_Aeolus6h_082418_Hybrid_C08']
-labels = ['IMERG', 'CON_Aeolus_082418_Hybrid_C08']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082418_Hybrid_C08']
+#labels = ['IMERG', 'CON_Aeolus_082418_Hybrid_C08']
 #cases = ['IMERG', 'CON6h_Aeolus6h_082500_Hybrid_C08']
 #labels = ['IMERG', 'CON_Aeolus_082500_Hybrid_C08']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082500_H1_Hybrid_C07']
+#labels = ['IMERG', 'CON_Aeolus_082500_H1_Hybrid_C07']
+cases = ['IMERG', 'CON6h_Aeolus6h_082500_H2_Hybrid_C07']
+labels = ['IMERG', 'CON_Aeolus_082500_H2_Hybrid_C07']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082500_V1_Hybrid_C07']
+#labels = ['IMERG', 'CON_Aeolus_082500_V1_Hybrid_C07']
+#cases = ['IMERG', 'CON6h_Aeolus6h_082500_V2_Hybrid_C07']
+#labels = ['IMERG', 'CON_Aeolus_082500_V2_Hybrid_C07']
 
-forecast_start_time = datetime.datetime(2021, 8, 26, 21, 0, 0)
-forecast_end_time   = datetime.datetime(2021, 8, 28, 21, 0, 0)
+forecast_start_time = datetime.datetime(2021, 8, 26, 18, 0, 0)
+forecast_end_time   = datetime.datetime(2021, 8, 28, 18, 0, 0)
 file_best_track = dir_best_track + '/2021_09L_Ida.csv'
 
 rain_levels = [0.6, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0]

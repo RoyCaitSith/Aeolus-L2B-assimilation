@@ -25,7 +25,7 @@ module load perl
 export NETCDF="/uufs/chpc.utah.edu/sys/spack/linux-rocky8-nehalem/intel-2021.4.0/netcdf"
 
 export WORK_DIRECTORY=/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng
-export SCRATCH_DIRECTORY=/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082418_Hybrid_C01 
+export SCRATCH_DIRECTORY=/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082418_V2_Hybrid_C05 
 export RUN_WRF_DIRECTORY=$SCRATCH_DIRECTORY/Run_WRF
 
 ln -sf $WORK_DIRECTORY/WPS/geogrid.exe $RUN_WRF_DIRECTORY/geogrid.exe

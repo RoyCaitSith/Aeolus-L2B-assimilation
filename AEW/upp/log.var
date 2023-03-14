@@ -1,0 +1,430 @@
+1:Mean sea level pressure:Pa (instant):mercator:meanSea:level 0:fcst time 0 hrs:from 202108240600
+2:Pressure:Pa (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+3:Surface net thermal radiation, clear sky gradient:J m**-2 (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+4:Geopotential height:gpm (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+5:Temperature:K (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+6:Relative humidity:% (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+7:Dew point temperature:K (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+8:Specific humidity:kg kg**-1 (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+9:U component of wind:m s**-1 (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+10:V component of wind:m s**-1 (instant):mercator:hybrid:level 1:fcst time 0 hrs:from 202108240600
+11:Pressure:Pa (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+12:Surface net thermal radiation, clear sky gradient:J m**-2 (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+13:Geopotential height:gpm (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+14:Temperature:K (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+15:Dew point temperature:K (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+16:Specific humidity:kg kg**-1 (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+17:U component of wind:m s**-1 (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+18:V component of wind:m s**-1 (instant):mercator:hybrid:level 2:fcst time 0 hrs:from 202108240600
+19:TOA incident solar radiation gradient:J m**-2 (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+20:Visibility:m (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+21:180:180 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+22:179:179 (instant):mercator:isobaricInhPa:level 2:fcst time 0 hrs:from 202108240600
+23:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+24:Temperature:K (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+25:Potential temperature:K (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+26:Relative humidity:% (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+27:Dew point temperature:K (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+28:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+29:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+30:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+31:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+32:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+33:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+34:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 50:fcst time 0 hrs:from 202108240600
+35:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+36:Temperature:K (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+37:Potential temperature:K (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+38:Relative humidity:% (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+39:Dew point temperature:K (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+40:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+41:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+42:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+43:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+44:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+45:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+46:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 100:fcst time 0 hrs:from 202108240600
+47:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+48:Temperature:K (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+49:Potential temperature:K (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+50:Relative humidity:% (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+51:Dew point temperature:K (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+52:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+53:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+54:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+55:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+56:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+57:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+58:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 150:fcst time 0 hrs:from 202108240600
+59:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+60:Temperature:K (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+61:Potential temperature:K (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+62:Relative humidity:% (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+63:Dew point temperature:K (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+64:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+65:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+66:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+67:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+68:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+69:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+70:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 200:fcst time 0 hrs:from 202108240600
+71:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+72:Temperature:K (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+73:Potential temperature:K (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+74:Relative humidity:% (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+75:Dew point temperature:K (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+76:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+77:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+78:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+79:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+80:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+81:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+82:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 250:fcst time 0 hrs:from 202108240600
+83:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+84:Temperature:K (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+85:Potential temperature:K (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+86:Relative humidity:% (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+87:Dew point temperature:K (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+88:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+89:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+90:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+91:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+92:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+93:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+94:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 300:fcst time 0 hrs:from 202108240600
+95:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+96:Temperature:K (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+97:Potential temperature:K (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+98:Relative humidity:% (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+99:Dew point temperature:K (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+100:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+101:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+102:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+103:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+104:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+105:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+106:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 350:fcst time 0 hrs:from 202108240600
+107:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+108:Temperature:K (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+109:Potential temperature:K (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+110:Relative humidity:% (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+111:Dew point temperature:K (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+112:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+113:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+114:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+115:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+116:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+117:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+118:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 400:fcst time 0 hrs:from 202108240600
+119:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+120:Temperature:K (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+121:Potential temperature:K (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+122:Relative humidity:% (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+123:Dew point temperature:K (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+124:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+125:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+126:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+127:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+128:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+129:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+130:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 450:fcst time 0 hrs:from 202108240600
+131:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+132:Temperature:K (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+133:Potential temperature:K (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+134:Relative humidity:% (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+135:Dew point temperature:K (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+136:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+137:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+138:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+139:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+140:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+141:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+142:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 500:fcst time 0 hrs:from 202108240600
+143:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+144:Temperature:K (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+145:Potential temperature:K (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+146:Relative humidity:% (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+147:Dew point temperature:K (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+148:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+149:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+150:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+151:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+152:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+153:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+154:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 550:fcst time 0 hrs:from 202108240600
+155:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+156:Temperature:K (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+157:Potential temperature:K (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+158:Relative humidity:% (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+159:Dew point temperature:K (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+160:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+161:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+162:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+163:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+164:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+165:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+166:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 600:fcst time 0 hrs:from 202108240600
+167:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+168:Temperature:K (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+169:Potential temperature:K (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+170:Relative humidity:% (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+171:Dew point temperature:K (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+172:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+173:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+174:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+175:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+176:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+177:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+178:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 650:fcst time 0 hrs:from 202108240600
+179:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+180:Temperature:K (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+181:Potential temperature:K (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+182:Relative humidity:% (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+183:Dew point temperature:K (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+184:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+185:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+186:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+187:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+188:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+189:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+190:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 700:fcst time 0 hrs:from 202108240600
+191:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+192:Temperature:K (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+193:Potential temperature:K (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+194:Relative humidity:% (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+195:Dew point temperature:K (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+196:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+197:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+198:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+199:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+200:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+201:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+202:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 750:fcst time 0 hrs:from 202108240600
+203:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+204:Temperature:K (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+205:Potential temperature:K (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+206:Relative humidity:% (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+207:Dew point temperature:K (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+208:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+209:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+210:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+211:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+212:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+213:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+214:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 775:fcst time 0 hrs:from 202108240600
+215:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+216:Temperature:K (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+217:Potential temperature:K (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+218:Relative humidity:% (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+219:Dew point temperature:K (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+220:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+221:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+222:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+223:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+224:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+225:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+226:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 800:fcst time 0 hrs:from 202108240600
+227:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+228:Temperature:K (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+229:Potential temperature:K (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+230:Relative humidity:% (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+231:Dew point temperature:K (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+232:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+233:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+234:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+235:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+236:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+237:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+238:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 825:fcst time 0 hrs:from 202108240600
+239:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+240:Temperature:K (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+241:Potential temperature:K (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+242:Relative humidity:% (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+243:Dew point temperature:K (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+244:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+245:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+246:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+247:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+248:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+249:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+250:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 850:fcst time 0 hrs:from 202108240600
+251:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+252:Temperature:K (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+253:Potential temperature:K (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+254:Relative humidity:% (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+255:Dew point temperature:K (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+256:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+257:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+258:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+259:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+260:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+261:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+262:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 875:fcst time 0 hrs:from 202108240600
+263:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+264:Temperature:K (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+265:Potential temperature:K (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+266:Relative humidity:% (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+267:Dew point temperature:K (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+268:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+269:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+270:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+271:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+272:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+273:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+274:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 900:fcst time 0 hrs:from 202108240600
+275:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+276:Temperature:K (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+277:Potential temperature:K (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+278:Relative humidity:% (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+279:Dew point temperature:K (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+280:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+281:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+282:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+283:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+284:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+285:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+286:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 925:fcst time 0 hrs:from 202108240600
+287:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+288:Temperature:K (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+289:Potential temperature:K (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+290:Relative humidity:% (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+291:Dew point temperature:K (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+292:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+293:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+294:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+295:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+296:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+297:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+298:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 950:fcst time 0 hrs:from 202108240600
+299:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+300:Temperature:K (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+301:Potential temperature:K (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+302:Relative humidity:% (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+303:Dew point temperature:K (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+304:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+305:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+306:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+307:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+308:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+309:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+310:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 975:fcst time 0 hrs:from 202108240600
+311:Temperature:K (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+312:Potential temperature:K (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+313:Relative humidity:% (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+314:Dew point temperature:K (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+315:Specific humidity:kg kg**-1 (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+316:Vertical velocity:Pa s**-1 (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+317:None Vertical velocity m s**-1:unknown (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+318:U component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+319:V component of wind:m s**-1 (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+320:Absolute vorticity:s**-1 (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+321:Stream function:m**2 s**-1 (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+322:130:130 (instant):mercator:meanSea:level 0:fcst time 0 hrs:from 202108240600
+323:129:129 (instant):mercator:meanSea:level 0:fcst time 0 hrs:from 202108240600
+324:Geopotential height:gpm (instant):mercator:isobaricInhPa:level 1000:fcst time 0 hrs:from 202108240600
+325:Surface net thermal radiation, clear sky gradient:J m**-2 (instant):mercator:heightAboveGround:level 4000:fcst time 0 hrs:from 202108240600
+326:Surface net thermal radiation, clear sky gradient:J m**-2 (instant):mercator:heightAboveGround:level 1000:fcst time 0 hrs:from 202108240600
+327:Surface pressure:Pa (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+328:Orography:m (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+329:Temperature:K (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+330:Soil temperature:K (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+331:144:144 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+332:160:160 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+333:Soil temperature:K (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+334:144:144 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+335:160:160 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+336:Soil temperature:K (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+337:144:144 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+338:160:160 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+339:Soil temperature:K (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+340:144:144 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+341:160:160 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+342:Soil temperature:K (instant):mercator:depthBelowLand:level 300:fcst time 0 hrs:from 202108240600
+343:207:207 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+344:Soil moisture:kg m**-3 (instant):mercator:depthBelowLandLayer:level None:fcst time 0 hrs:from 202108240600
+345:Snow Fall water equivalent:kg m**-2 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+346:Large scale snow:kg m**-2 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+347:238:238 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+348:Snow depth:m (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+349:2 metre temperature:K (instant):mercator:heightAboveGround:level 2:fcst time 0 hrs:from 202108240600
+350:Specific humidity:kg kg**-1 (instant):mercator:heightAboveGround:level 2:fcst time 0 hrs:from 202108240600
+351:2 metre dewpoint temperature:K (instant):mercator:heightAboveGround:level 2:fcst time 0 hrs:from 202108240600
+352:Relative humidity:% (instant):mercator:heightAboveGround:level 2:fcst time 0 hrs:from 202108240600
+353:10 metre U wind component:m s**-1 (instant):mercator:heightAboveGround:level 10:fcst time 0 hrs:from 202108240600
+354:10 metre V wind component:m s**-1 (instant):mercator:heightAboveGround:level 10:fcst time 0 hrs:from 202108240600
+355:214:214 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+356:Precipitation rate:kg m**-2 s**-1 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+357:Total Precipitation:kg m**-2 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+358:Convective precipitation (water):kg m**-2 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+359:large scale precipitation:kg m**-2 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+360:Snow Fall water equivalent:kg m**-2 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+361:Snow melt:kg m**-2 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+362:235:235 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+363:143:143 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+364:142:142 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+365:141:141 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+366:140:140 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+367:143:143 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+368:142:142 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+369:141:141 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+370:140:140 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+371:228:228 (accum):mercator:surface:level 0:fcst time 0 hrs (accum):from 202108240600
+372:Surface roughness:m (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+373:253:253 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+374:Sensible heat flux:W m**-2 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+375:Latent heat flux:W m**-2 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+376:Percentage of vegetation:% (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+377:155:155 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+378:131:131 (instant):mercator:isobaricLayer:level None:fcst time 0 hrs:from 202108240600
+379:157:157 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+380:156:156 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+381:Precipitable water:kg m**-2 (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+382:Total column water gradient:kg m**-2 (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+383:Total column water vapour gradient:kg m**-2 (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+384:Vorticity (relative) gradient:s**-1 (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+385:Soil temperature level 1 gradient:K (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+386:Soil wetness level 1 gradient:kg m**-2 (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+387:Low cloud cover:% (instant):mercator:unknown:level 0:fcst time 0 hrs:from 202108240600
+388:Medium cloud cover:% (instant):mercator:unknown:level 0:fcst time 0 hrs:from 202108240600
+389:High cloud cover:% (instant):mercator:unknown:level 0:fcst time 0 hrs:from 202108240600
+390:Total Cloud Cover:% (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+391:Total Cloud Cover:% (instant):mercator:entireAtmosphere:level 0:fcst time 0 hrs:from 202108240600
+392:Pressure:Pa (instant):mercator:cloudBase:level 0:fcst time 0 hrs:from 202108240600
+393:Geopotential height:gpm (instant):mercator:cloudBase:level 0:fcst time 0 hrs:from 202108240600
+394:Geopotential height:gpm (instant):mercator:cloudBase:level 0:fcst time 0 hrs:from 202108240600
+395:Geopotential height:gpm (instant):mercator:unknown:level 0:fcst time 0 hrs:from 202108240600
+396:Pressure:Pa (instant):mercator:cloudTop:level 0:fcst time 0 hrs:from 202108240600
+397:Geopotential height:gpm (instant):mercator:cloudTop:level 0:fcst time 0 hrs:from 202108240600
+398:Geopotential height:gpm (instant):mercator:cloudTop:level 0:fcst time 0 hrs:from 202108240600
+399:Temperature:K (instant):mercator:cloudTop:level 0:fcst time 0 hrs:from 202108240600
+400:Brightness temperature:K (instant):mercator:nominalTop:level 0:fcst time 0 hrs:from 202108240600
+401:204:204 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+402:205:205 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+403:211:211 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+404:212:212 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+405:190:190 (instant):mercator:heightAboveGroundLayer:level None:fcst time 0 hrs:from 202108240600
+406:Geopotential height:gpm (instant):mercator:tropopause:level 0:fcst time 0 hrs:from 202108240600
+407:Geopotential height:gpm (instant):mercator:isothermZero:level 0:fcst time 0 hrs:from 202108240600
+408:Geopotential height:gpm (instant):mercator:unknown:level 0:fcst time 0 hrs:from 202108240600
+409:Specific humidity:kg kg**-1 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+410:U component of wind:m s**-1 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+411:V component of wind:m s**-1 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+412:Precipitable water:kg m**-2 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+413:Parcel lifted index (to 500 hPa):K (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+414:132:132 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+415:157:157 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+416:156:156 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+417:221:221 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+418:157:157 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+419:156:156 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+420:157:157 (instant):mercator:pressureFromGroundLayer:fcst time 0 hrs:from 202108240600
+421:156:156 (instant):mercator:pressureFromGroundLayer:fcst time 0 hrs:from 202108240600
+422:157:157 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+423:156:156 (instant):mercator:pressureFromGroundLayer:level None:fcst time 0 hrs:from 202108240600
+424:157:157 (instant):mercator:pressureFromGroundLayer:fcst time 0 hrs:from 202108240600
+425:176:176 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+426:177:177 (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+427:Land-sea mask:(0 - 1) (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+428:Ice cover (1=ice, 0=no ice):(0 - 1) (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+429:Water temperature:K (instant):mercator:surface:level 0:fcst time 0 hrs:from 202108240600
+430:Potential vorticity:K m**2 kg**-1 s**-1 (instant):mercator:theta:level 310:fcst time 0 hrs:from 202108240600

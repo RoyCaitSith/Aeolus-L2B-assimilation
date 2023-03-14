@@ -11,7 +11,11 @@ from subroutine import file_operations as fo
 #case = 'CON6h_Aeolus6h_082406_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082412_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082418_Hybrid_C08'
-case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H1_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_H2_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_V1_Hybrid_C05'
+case = 'CON6h_Aeolus6h_082500_V2_Hybrid_C05'
 
 dir_CPEX = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN'
 dir_exp    = dir_CPEX + '/15_ENS/cycling_da'

@@ -13,10 +13,14 @@ import numpy as np
 #case = 'CON6h_Aeolus6h_082406_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082412_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082418_Hybrid_C08'
-case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H1_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_H2_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_V1_Hybrid_C05'
+case = 'CON6h_Aeolus6h_082500_V2_Hybrid_C05'
 
 dir_exp = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN/15_ENS/track_intensity'
-folder_in  = dir_exp + '/CON6h_082500_Hybrid_C08'
+folder_in  = dir_exp + '/CON6h_Aeolus6h_082500_Hybrid_C05'
 folder_out = dir_exp + '/' + case
 
 print('Create a folder: multi')

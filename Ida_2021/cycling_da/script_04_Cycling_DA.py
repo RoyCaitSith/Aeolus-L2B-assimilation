@@ -7,11 +7,27 @@ from subroutine import file_operations as fo
 #case = 'CON6h_082406_Hybrid_C08'
 #case = 'CON6h_082412_Hybrid_C08'
 #case = 'CON6h_082418_Hybrid_C08'
+#case = 'CON6h_082418_H1_Hybrid_C08'
+#case = 'CON6h_082418_H2_Hybrid_C08'
+#case = 'CON6h_082418_V1_Hybrid_C08'
+#case = 'CON6h_082418_V2_Hybrid_C08'
 #case = 'CON6h_082500_Hybrid_C08'
+#case = 'CON6h_082500_H1_Hybrid_C08'
+#case = 'CON6h_082500_H2_Hybrid_C08'
+#case = 'CON6h_082500_V1_Hybrid_C08'
+#case = 'CON6h_082500_V2_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082406_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082412_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082418_Hybrid_C08'
-case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082418_H1_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082418_H2_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082418_V1_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082418_V2_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H1_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H2_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_V1_Hybrid_C08'
+case = 'CON6h_Aeolus6h_082500_V2_Hybrid_C08'
 
 dir_GOES   = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction'
 dir_CPEX   = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN/15_ENS'
@@ -117,18 +133,20 @@ while time_now <= anl_end_time:
             run_gsi_input.substitude_string('DOMAIN_NAME', '=', dom)
             run_gsi_input.save_content()
 
-            info = os.popen('cd ' + dir_option + ' && sbatch ./run_GSI.sh').read()
-            jobid = re.findall(r"\d+\.?\d*", info)
-            print('Run gsi for domain ', dom, ' at ', time_now_str, ', jobid: ', jobid)
-            flag = True
-            while flag:
-                time.sleep(30)
-                flag = False
-                info = os.popen('squeue -u u1237353').read()
-                number_in_info = re.findall(r"\d+\.?\d*", info)
-                for num in number_in_info:
-                    if num == jobid[0]:
-                        flag = True
+            info = os.popen('grep "ENDING DATE-TIME" ' + run_gsi_dir + '/case_' + dom + '/stdout').readlines()
+            if len(info) == 0:
+                info = os.popen('cd ' + dir_option + ' && sbatch ./run_GSI.sh').read()
+                jobid = re.findall(r"\d+\.?\d*", info)
+                print('Run gsi for domain ', dom, ' at ', time_now_str, ', jobid: ', jobid)
+                flag = True
+                while flag:
+                    time.sleep(30)
+                    flag = False
+                    info = os.popen('squeue -u u1237353').read()
+                    number_in_info = re.findall(r"\d+\.?\d*", info)
+                    for num in number_in_info:
+                        if num == jobid[0]:
+                            flag = True
 
             info = os.popen('grep "ENDING DATE-TIME" ' + run_gsi_dir + '/case_' + dom + '/stdout').readlines()
             if len(info) == 1:

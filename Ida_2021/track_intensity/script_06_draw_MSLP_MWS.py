@@ -26,8 +26,16 @@ dir_best_track = dir_main + '/best_track'
 #labels = ['CON_Aeolus_082412_Hybrid_C05', 'CON_Aeolus_082412_Hybrid_C06', 'CON_Aeolus_082412_Hybrid_C07', 'CON_Aeolus_082412_Hybrid_C08']
 #cases  = ['CON6h_Aeolus6h_082418_Hybrid_C05', 'CON6h_Aeolus6h_082418_Hybrid_C06', 'CON6h_Aeolus6h_082418_Hybrid_C07', 'CON6h_Aeolus6h_082418_Hybrid_C08']
 #labels = ['CON_Aeolus_082418_Hybrid_C05', 'CON_Aeolus_082418_Hybrid_C06', 'CON_Aeolus_082418_Hybrid_C07', 'CON_Aeolus_082418_Hybrid_C08']
-cases  = ['CON6h_Aeolus6h_082500_Hybrid_C05', 'CON6h_Aeolus6h_082500_Hybrid_C06', 'CON6h_Aeolus6h_082500_Hybrid_C07', 'CON6h_Aeolus6h_082500_Hybrid_C08']
-labels = ['CON_Aeolus_082500_Hybrid_C05', 'CON_Aeolus_082500_Hybrid_C06', 'CON_Aeolus_082500_Hybrid_C07', 'CON_Aeolus_082500_Hybrid_C08']
+#cases  = ['CON6h_Aeolus6h_082500_Hybrid_C05', 'CON6h_Aeolus6h_082500_Hybrid_C06', 'CON6h_Aeolus6h_082500_Hybrid_C07', 'CON6h_Aeolus6h_082500_Hybrid_C08']
+#labels = ['CON_Aeolus_082500_Hybrid_C05', 'CON_Aeolus_082500_Hybrid_C06', 'CON_Aeolus_082500_Hybrid_C07', 'CON_Aeolus_082500_Hybrid_C08']
+#cases  = ['CON6h_Aeolus6h_082500_H1_Hybrid_C05', 'CON6h_Aeolus6h_082500_H1_Hybrid_C06', 'CON6h_Aeolus6h_082500_H1_Hybrid_C07', 'CON6h_Aeolus6h_082500_H1_Hybrid_C08']
+#labels = ['CON_Aeolus_082500_H1_Hybrid_C05', 'CON_Aeolus_082500_H1_Hybrid_C06', 'CON_Aeolus_082500_H1_Hybrid_C07', 'CON_Aeolus_082500_H1_Hybrid_C08']
+#cases  = ['CON6h_Aeolus6h_082500_H2_Hybrid_C05', 'CON6h_Aeolus6h_082500_H2_Hybrid_C06', 'CON6h_Aeolus6h_082500_H2_Hybrid_C07', 'CON6h_Aeolus6h_082500_H2_Hybrid_C08']
+#labels = ['CON_Aeolus_082500_H2_Hybrid_C05', 'CON_Aeolus_082500_H2_Hybrid_C06', 'CON_Aeolus_082500_H2_Hybrid_C07', 'CON_Aeolus_082500_H2_Hybrid_C08']
+#cases  = ['CON6h_Aeolus6h_082500_V1_Hybrid_C05', 'CON6h_Aeolus6h_082500_V1_Hybrid_C06', 'CON6h_Aeolus6h_082500_V1_Hybrid_C07', 'CON6h_Aeolus6h_082500_V1_Hybrid_C08']
+#labels = ['CON_Aeolus_082500_V1_Hybrid_C05', 'CON_Aeolus_082500_V1_Hybrid_C06', 'CON_Aeolus_082500_V1_Hybrid_C07', 'CON_Aeolus_082500_V1_Hybrid_C08']
+cases  = ['CON6h_Aeolus6h_082500_V2_Hybrid_C05', 'CON6h_Aeolus6h_082500_V2_Hybrid_C06', 'CON6h_Aeolus6h_082500_V2_Hybrid_C07', 'CON6h_Aeolus6h_082500_V2_Hybrid_C08']
+labels = ['CON_Aeolus_082500_V2_Hybrid_C05', 'CON_Aeolus_082500_V2_Hybrid_C06', 'CON_Aeolus_082500_V2_Hybrid_C07', 'CON_Aeolus_082500_V2_Hybrid_C08']
 
 domain = 'd01'
 
@@ -38,7 +46,11 @@ domain = 'd01'
 #pdfname = dir_main + '/Figures/Aeolus_DA_082406_intensity.pdf'
 #pdfname = dir_main + '/Figures/Aeolus_DA_082412_intensity.pdf'
 #pdfname = dir_main + '/Figures/Aeolus_DA_082418_intensity.pdf'
-pdfname = dir_main + '/Figures/Aeolus_DA_082500_intensity.pdf'
+#pdfname = dir_main + '/Figures/Aeolus_DA_082500_intensity.pdf'
+#pdfname = dir_main + '/Figures/Aeolus_DA_082500_H1_intensity.pdf'
+#pdfname = dir_main + '/Figures/Aeolus_DA_082500_H2_intensity.pdf'
+#pdfname = dir_main + '/Figures/Aeolus_DA_082500_V1_intensity.pdf'
+pdfname = dir_main + '/Figures/Aeolus_DA_082500_V2_intensity.pdf'
 
 file_best_track = dir_best_track + '/2021_09L_Ida.csv'
 #forecast_start_time = datetime.datetime(2021, 8, 24,  6, 0, 0)

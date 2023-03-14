@@ -24,7 +24,7 @@ module load perl
 
 export NETCDF="/uufs/chpc.utah.edu/sys/spack/linux-rocky8-nehalem/intel-2021.4.0/netcdf"
 
-export SCRATCH_DIRECTORY=/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082418_Hybrid_C01 
+export SCRATCH_DIRECTORY=/scratch/general/lustre/u1237353/CON6h_Aeolus6h_082418_V2_Hybrid_C05 
 export RUN_WRF_DIRECTORY=$SCRATCH_DIRECTORY/Run_WRF
 
 mpirun -np $SLURM_NTASKS $RUN_WRF_DIRECTORY/wrf.exe >& $RUN_WRF_DIRECTORY/log.wrf

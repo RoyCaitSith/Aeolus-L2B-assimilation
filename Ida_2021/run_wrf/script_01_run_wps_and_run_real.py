@@ -8,11 +8,27 @@ from subroutine import file_operations as fo
 #case = 'CON6h_082406_Hybrid_C08'
 #case = 'CON6h_082412_Hybrid_C08'
 #case = 'CON6h_082418_Hybrid_C08'
+#case = 'CON6h_082418_H1_Hybrid_C05'
+#case = 'CON6h_082418_H2_Hybrid_C05'
+#case = 'CON6h_082418_V1_Hybrid_C05'
+#case = 'CON6h_082418_V2_Hybrid_C05'
 #case = 'CON6h_082500_Hybrid_C08'
+#case = 'CON6h_082500_H1_Hybrid_C05'
+#case = 'CON6h_082500_H2_Hybrid_C05'
+#case = 'CON6h_082500_V1_Hybrid_C05'
+#case = 'CON6h_082500_V2_Hybrid_C05'
 #case = 'CON6h_Aeolus6h_082406_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082412_Hybrid_C08'
 #case = 'CON6h_Aeolus6h_082418_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082418_H1_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082418_H2_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082418_V1_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082418_V2_Hybrid_C05'
 #case = 'CON6h_Aeolus6h_082500_Hybrid_C08'
+#case = 'CON6h_Aeolus6h_082500_H1_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_H2_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_V1_Hybrid_C05'
+#case = 'CON6h_Aeolus6h_082500_V2_Hybrid_C05'
 
 # Set the directories of the input files or procedures
 dir_GOES = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction'
@@ -23,8 +39,8 @@ dir_GFS  = dir_GOES + '/Data/GFS'
 WRF_dir                 = '/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng'
 #namelist_and_script_dir = dir_main + '/namelist_and_script/2021082406'
 #namelist_and_script_dir = dir_main + '/namelist_and_script/2021082412'
-#namelist_and_script_dir = dir_main + '/namelist_and_script/2021082418'
-namelist_and_script_dir = dir_main + '/namelist_and_script/2021082500'
+namelist_and_script_dir = dir_main + '/namelist_and_script/2021082418'
+#namelist_and_script_dir = dir_main + '/namelist_and_script/2021082500'
 namelist_wps_dir        = namelist_and_script_dir + '/namelist.wps'
 plotgrids_new_dir       = namelist_and_script_dir + '/plotgrids_new.ncl'
 namelist_input_dir      = namelist_and_script_dir + '/namelist.input'
@@ -33,10 +49,11 @@ run_wrf_dir             = namelist_and_script_dir + '/run_wrf.sh'
 
 #initial_time     = datetime.datetime(2021, 8, 24,  6, 0, 0)
 #initial_time     = datetime.datetime(2021, 8, 24, 12, 0, 0)
-#initial_time     = datetime.datetime(2021, 8, 24, 18, 0, 0)
-initial_time     = datetime.datetime(2021, 8, 25,  0, 0, 0)
+initial_time     = datetime.datetime(2021, 8, 24, 18, 0, 0)
+#initial_time     = datetime.datetime(2021, 8, 25,  0, 0, 0)
 spin_up_hours    = 6
-assimilate_hours = 42
+#assimilate_hours = 42
+assimilate_hours = 24
 forecast_hours   = 48
 anl_start_time   = initial_time + datetime.timedelta(hours = spin_up_hours)
 anl_end_time     = anl_start_time + datetime.timedelta(hours = assimilate_hours)
