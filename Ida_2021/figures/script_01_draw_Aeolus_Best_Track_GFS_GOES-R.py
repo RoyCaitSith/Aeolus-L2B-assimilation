@@ -17,19 +17,19 @@ dir_CPEXs.append('/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/03_CPEX_DAWN
 dir_GOESs.append('/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction')
 dir_GOESs.append('/uufs/chpc.utah.edu/common/home/zpu-group16/cfeng/02_GOES_Bias_Correction')
 
-cases= ['CON6h_082418_Hybrid_C08', '20210820']
+cases= ['CON6h_082500_Hybrid_C08', '20210820']
 mtitles = ['(a)', '(b)']
 
 anl_start_times = [datetime.datetime(2021, 8, 24, 12, 0, 0), datetime.datetime(2021, 8, 20,  0, 0, 0)]
 anl_end_times = [datetime.datetime(2021, 8, 27,  0, 0, 0), datetime.datetime(2021, 8, 21,  0, 0, 0)]
 
-file_wrfout_d01s = ['wrfout_d01_2021-08-24_18:00:00', 'wrfout_d01_2021-08-19_18:00:00']
-file_wrfout_d02s = ['wrfout_d02_2021-08-24_18:00:00', 'wrfout_d02_2021-08-19_18:00:00']
+file_wrfout_d01s = ['wrfout_d01_2021-08-25_00:00:00', 'wrfout_d01_2021-08-19_18:00:00']
+file_wrfout_d02s = ['wrfout_d02_2021-08-25_00:00:00', 'wrfout_d02_2021-08-19_18:00:00']
 time_GOES_nows = [datetime.datetime(2021, 8, 25, 12, 0, 0), datetime.datetime(2021, 8, 21,  0, 0, 0)]
 AEW_dates = [[], [19, 20, 21, 22]]
 
 #Here
-GFS_times = [3, 8]
+GFS_times = [2, 8]
 sidxs = [0, -1]
 eidxs = [21, -1]
 zidxs = [3, -1]
@@ -326,7 +326,7 @@ with PdfPages(pdfname) as pdf:
         ax.legend(loc='lower left', fontsize=7.5, markerscale=7.5, handlelength=1.0).set_zorder(102)
 
     clb = fig.colorbar(pcm, ax=axs, ticks=np.arange(190, 250.1, 5.0), orientation='horizontal', pad=-0.075, aspect=50, shrink=0.900)
-    clb.set_label('GOES-16 channel 8 BT (K)', fontsize=10.0, labelpad=4.0)
+    clb.set_label('GOES-16 channel eight BT (K)', fontsize=10.0, labelpad=4.0)
     clb.ax.tick_params(axis='both', direction='in', pad=4.0, length=3.0, labelsize=10.0)
 
     grade = [20, 33, 63, 82, 95, 112, 125]

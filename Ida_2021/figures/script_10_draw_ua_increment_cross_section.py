@@ -249,7 +249,7 @@ for dom in domains:
                 ax.axis([lat.min(), lat.max(), 0, 30])
 
         clb1 = fig.colorbar(inc_0_contourf, ax=axs[:, 0:2], ticks=np.arange(-10.0, 10.1, 2.0), orientation='horizontal', pad=0.075, aspect=50, shrink=1.00)
-        clb1.set_label('Zonal wind increment ($\mathrm{m\ s^{-1}}$) of on ' + draw_time_string, fontsize=10.0, labelpad=4.0)
+        clb1.set_label('Zonal wind increment ($\mathrm{m\ s^{-1}}$) on ' + draw_time_string, fontsize=10.0, labelpad=4.0)
         clb1.ax.tick_params(axis='both', direction='in', pad=4.0, length=3.0, labelsize=10.0)
 
         clb2 = fig.colorbar(inc_diff_contourf, ax=axs[:, 2], ticks=np.arange(-10.0, 10.1, 2.0), orientation='horizontal', pad=0.075, aspect=25, shrink=1.10)

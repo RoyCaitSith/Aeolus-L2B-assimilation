@@ -101,7 +101,7 @@ for dom in domains:
                     ax.plot(lon_polar[idr,:], lat_polar[idr,:], '--', color=grayC_cm_data[53], linewidth=0.5, zorder=3)
 
         clb = fig.colorbar(pcm, ax=axs, orientation='horizontal', pad=0.060, aspect=50, shrink=1.00)
-        clb.set_label('6 h accumulated precipitation (mm)', fontsize=10.0, labelpad=4.0)
+        clb.set_label('Six hour accumulated precipitation (mm)', fontsize=10.0, labelpad=4.0)
         clb.ax.tick_params(axis='both', direction='in', pad=4.0, length=3.0, labelsize=10.0)
         clb.ax.minorticks_off()
         clb.set_ticks(rain_levels)
