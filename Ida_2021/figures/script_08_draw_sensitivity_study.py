@@ -174,7 +174,7 @@ with PdfPages(pdfname) as pdf:
         ax.set_xticks(np.arange(0, 4, 1))
         ax.set_yticks(np.arange(ymin, ymax+yint, yint))
         ax.set_xticklabels(['C5', 'C6', 'C7', 'C8'])
-        ax.set_ylabel('Improvement of MWS forecast (Knot)', fontsize=10.0)
+        ax.set_ylabel('Improvement of MWS forecast (kn)', fontsize=10.0)
         ax.tick_params('both', direction='in', labelsize=10.0)
         ax.axis([-1, 4, ymin, ymax])
         ax.grid(True, linewidth=0.5, color=grayC_cm_data[53])

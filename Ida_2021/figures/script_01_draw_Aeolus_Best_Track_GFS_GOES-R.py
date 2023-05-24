@@ -326,14 +326,14 @@ with PdfPages(pdfname) as pdf:
         ax.legend(loc='lower left', fontsize=7.5, markerscale=7.5, handlelength=1.0).set_zorder(102)
 
     clb = fig.colorbar(pcm, ax=axs, ticks=np.arange(190, 250.1, 5.0), orientation='horizontal', pad=-0.075, aspect=50, shrink=0.900)
-    clb.set_label('GOES-16 channel eight BT (K)', fontsize=10.0, labelpad=4.0)
+    clb.set_label('GOES-16 channel-eight BT (K)', fontsize=10.0, labelpad=4.0)
     clb.ax.tick_params(axis='both', direction='in', pad=4.0, length=3.0, labelsize=10.0)
 
     grade = [20, 33, 63, 82, 95, 112, 125]
     cat = ['TD', 'TS', 'Cat1', 'Cat2', 'Cat3', 'Cat4']
     clb2 = plt.colorbar(sc2, ax=axs, ticks=grade, orientation='horizontal', pad=0.030, aspect=50, shrink=0.900)
     clb2.set_ticklabels(grade)
-    clb2.set_label('MWS (Knot)', fontsize=10.0)
+    clb2.set_label('MWS (kn)', fontsize=10.0)
     clb2.ax.tick_params(axis='both', direction='in', labelsize=10.0)
     for idx, lab in enumerate(cat):
         clb2.ax.text(0.5*(grade[idx+1]+grade[idx]), -0.875, lab, ha='center', va='center', color='k', fontsize=10.0)
