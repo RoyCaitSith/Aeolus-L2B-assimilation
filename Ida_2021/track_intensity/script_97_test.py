@@ -9,3 +9,4 @@ print(b)
 
 print('Today is a good day!')
 print('Not bad!')
+print('Have a nice day!')
